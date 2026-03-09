@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: store-jpa
+  datasource:
+    url: jdbc:mysql://localhost:3306/ashstore?createDatabaseIfNotExists=true
+    username: root
+    password: Ashish@457
+  jpa:
+    show-sql: true
